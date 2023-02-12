@@ -13,7 +13,11 @@ class Application:
 
 
 class ServerAppStore:
+    """This is the Server App Store object documentation"""
+
     def __init__(self, public_ip, ip, port):
+        """This is the Server App Store documentation"""
+
         self.IP: str = ip
         self.PUBLIC_IP: str = public_ip
         self.PORT: int = port
